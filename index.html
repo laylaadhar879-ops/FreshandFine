@@ -64,51 +64,73 @@
       <a href="products.html" class="btn custom-button-filled">Our products</a>
     </div>
   </header>
+  <!--history of the farm-->
+  <section id="history" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+            <h2 class="text-start">Our Story</h2>
+          <p>Fresh & Fine was founded in 1995 with nothing but a pattion for concucting homemade fruit juice and a love for making the community happy. Our fathers and grandfathers started the farm from scratch, working tirelessly to cultivate the land and grow the best fruits possible, along with many hours of tial to perfect the recipe.Our commitment to quality and sustainability drives everything we do</p>
+          <p>Over the years, we have expanded our product line to include a variety of fresh products such as eggs, milk sourced straight from our cows and ice-creams all made with the same care and attention to detail that our founders instilled in us. We are proud to be a family-owned business that values tradition, community, and the environment.</p>
+          <a href="#" class="btn custom-button-filled text-white">Other Products</a>
+        </div>
+        <div class="col-md-6">
+          <img src="assets\images\old photo of the farm.jpg" alt="Old photo of someone working on the farm" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
   <!--card section for About us, Images with information about the company-->
- <div id="about-us" class="row row-cols-1 row-cols-md-4 g-4">
-  <div class="col">
-    <div class="row">
-    <div class="card h-100">
-      <img src="assets\images\family farm.jpg" class="card-img-top" alt="Our family on the farm">
-      <div class="card-body">
-        <h5 class="card-title text-center">Our Family</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <label for="toggle1" class="read-more-btn"></label>
+  <section id="about-us" class="py-5">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets\images\family farm.jpg" class="card-img-top" alt="Our family on the farm">
+            <div class="card-body text-center">
+              <h5 class="card-title">Our Family</h5>
+              <!--creates the read more button without using javascript, no text is displayed initially-->
+              <input type="checkbox" id="toggle1" class="read-more-toggle">
+              <p class="card-text">As a family we have worked hard over many years and generations to build a sustainable and thriving farm. After many trials and tribulations that our forefathers have faced, we have succeeded in creating a legacy of quality and care while still being a loving community.</p>
+              <label for="toggle1" class="read-more-btn"></label>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets\images\farm animals.webp" class="card-img-top" alt="cows looking over a wooden fence">
+            <div class="card-body text-center">
+              <h5 class="card-title">Our Animals</h5>
+              <input type="checkbox" id="toggle2" class="read-more-toggle">
+              <p class="card-text">The animals on the farm are treated with love and care to ensure their well-being and happiness. They are fed with the best quality grains and food to keep them healthy and strong.</p>
+              <label for="toggle2" class="read-more-btn"></label>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets\images\farm.jpg" class="card-img-top" alt="Our farm ">
+            <div class="card-body text-center">
+              <h5 class="card-title">Our Farm</h5>
+              <input type="checkbox" id="toggle3" class="read-more-toggle">
+              <p class="card-text">Our farm spans over several acres of fertile land where we cultivate a variety of fruits and vegetables without the use of any harmful chemicals, we use sustainable farming practices which requires more time and effort but allows us to protect the environment and produce high-quality organic products.</p>
+              <label for="toggle3" class="read-more-btn"></label>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets\images\fruits on farm.webp" class="card-img-top" alt="Fresh Fruits picked straight from the farm">
+            <div class="card-body text-center">
+              <h5 class="card-title">Our Produce</h5>
+              <input type="checkbox" id="toggle4" class="read-more-toggle">
+              <p class="card-text">We take great pride in the fresh fruits and vegetables we grow on our farm. Our produce is carefully looked after everyday and harvested at the peak of ripeness to ensure the best flavor and nutritional value for our customers.</p>
+              <label for="toggle4" class="read-more-btn"></label>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets\images\farm animals.webp" class="card-img-top" alt="cows looking over a wooden fence">
-      <div class="card-body">
-        <h5 class="card-title text-center">Our Animals</h5>
-        <p class="card-text">This is a short card.</p>
-        <label for="toggle2" class="read-more-btn"></label>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets\images\farm.jpg" class="card-img-top" alt="Our farm ">
-      <div class="card-body">
-        <h5 class="card-title text-center">Our Farm</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        <label for="toggle3" class="read-more-btn"></label>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets\images\fruits on farm.webp" class="card-img-top" alt="Fresh Fruits picked straight from the farm">
-      <div class="card-body">
-        <h5 class="card-title text-center">Our Produce</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <label for="toggle4" class="read-more-btn"></label>
-      </div>
-    </div>
-  </div>
-</div>
+  </section>
   <!--Footer section-->
   <footer class="py-4">
     <div class="container">
