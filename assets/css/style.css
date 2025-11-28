@@ -187,6 +187,12 @@ video {
 .read-more-btn:hover {
     background-color: var(--highlight-color);
 }
+.carousel-item im;/{
+    position: relative;
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
 
 /*footer section*/
 footer .container {
