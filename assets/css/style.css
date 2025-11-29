@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-    padding: 1rem;
+    
     font-weight: bold;
     font-family: "dm serif display", serif;
 }
@@ -221,14 +221,14 @@ video {
     color: #333;
 }
 
-.sign-up-form-container .form-control {
+.sign-up-form-container .form-field {
     border: 2px solid #ddd;
     padding: 0.75rem;
+    width: 100%;
     border-radius: 8px;
-    transition: border-color 0.3s;
 }
 
-.sign-up-form-container .form-control:focus {
+.sign-up-form-container .form-field:focus {
     border-color: var(--primary-color);
     box-shadow: 0 0 0 0.2rem rgba(242, 101, 19, 0.25);
 }
