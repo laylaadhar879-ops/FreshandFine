@@ -71,6 +71,8 @@ nav {
 
 /*hero section*/
 
+/*styles video as background for hero section*/
+
 video {
     position: absolute;
     top: 0;
@@ -88,6 +90,9 @@ video {
     justify-content: center;
     align-items: center;
 }
+
+/*styles the content in the hero section.
+ Made the heading bold, aligned text to the center and added padding*/
 
 .hero-content {
     text-align: center;
@@ -114,6 +119,8 @@ video {
     color: var(--secondary-color);
 }
 
+/*custom button filled style. Changed color to green when hovered over*/
+
 .custom-button-filled {
     background-color: var(--highlight-color) !important;
     color: var(--secondary-color);
@@ -138,10 +145,14 @@ video {
     width: 100%;
 }
 
+/*hover effect for cards also add shadow for depth */
+
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
+
+/*styles the image inside the card to fit properly*/
 
 .card-img-top {
     width: 100%;
@@ -151,7 +162,7 @@ video {
 
 
 .card-text {
-    display: none;
+    display: block;
     margin-bottom: 1rem;
 }
 
@@ -192,7 +203,57 @@ video {
     content: "Read Less";
 }
 
+/*products section*/
+
+.products-section {
+    margin-top: 70px;
+    min-height: 100vh;
+}
+
+.products-section h2 {
+    padding: 0;
+    margin-bottom: 2rem;
+    color: black
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.products-section .card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+.products-section .card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.products-section .card-title {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 0;
+}
+
+.products-section .card-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.products-section .card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    font-weight: 600;
+}
+
 /*sign-up form*/
+
+/*set a background image for the sign-up section and center the form*/
 #sign-up-section {
     background: url('../images/sign up form farm photo.jpeg') no-repeat center center/cover;
     min-height: 100vh;
@@ -201,6 +262,9 @@ video {
     align-items: center;
     padding: 4rem 0;
 }
+
+/*styles the sign-up form container*/
+
 .sign-up-form-container {
     background-color: rgba(255, 255, 255, 0.95);
     padding: 2.5rem;
@@ -228,10 +292,7 @@ video {
     border-radius: 8px;
 }
 
-.sign-up-form-container .form-field:focus {
-    border-color: var(--primary-color);
-    box-shadow: 0 0 0 0.2rem rgba(242, 101, 19, 0.25);
-}
+/*spacing between form fields and the sign up button is already styled because of the class attribute*/
 
 
 /*footer section*/
@@ -259,6 +320,9 @@ footer p {
     font-size: 0.85rem;
 }
 
+
+/*nav menu in the footer and creates space between all the footer content*/
+
 footer ul li {
     margin-bottom: 0.4rem;
 }
@@ -284,6 +348,8 @@ footer ul li a {
     display: flex;
     gap: 2rem;
 }
+
+
 
 .social-icons i {
     font-size: 1.3rem;
