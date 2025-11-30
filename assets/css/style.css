@@ -255,7 +255,7 @@ video {
 
 /*set a background image for the sign-up section and center the form*/
 #sign-up-section {
-    background: url('../images/sign up form farm photo.jpeg') no-repeat center center/cover;
+    background: url('https://images.pexels.com/photos/6216870/pexels-photo-6216870.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260') no-repeat center center/cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
