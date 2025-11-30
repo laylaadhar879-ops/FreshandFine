@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
- 
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Fresh & Fine is the best organic fruit juice, high-quality ingredients to satisfy your cravings.">
@@ -13,16 +13,16 @@
   <!--Fon "t Awesome for icons-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <!--favicon link-->
-<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
   <!--bootstrap CSS link-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
- <!--webpage title-->
-    <title>Fresh & Fine</title>
+  <!--webpage title-->
+  <title>Fresh & Fine</title>
 </head>
 
 <body>
@@ -36,7 +36,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-         <!--page navigation links-->
+        <!--page navigation links-->
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -60,126 +60,157 @@
   <!--Hero section-->
   <header class="hero-section">
     <video autoplay muted loop playsinline class="hero-video">
-      <source src="assets\videos\orange plant.mp4" type="video/mp4">
+      <source src="assets/videos/orange-plant.mp4" type="video/mp4">
     </video>
     <div class="hero-content">
       <h1>Welcome to Fresh & Fine</h1>
-      <a href="products.html" aria-controls="other-products" class="btn custom-button-filled">Our products</a>
+      <a href="products.html" class="btn custom-button-filled">Our products</a>
     </div>
   </header>
   <!--history of the farm-->
-  <section id="about-us" class="py-5" >
+  <section id="about-us" class="py-5">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12 col-md-6 mb-4 mb-md-0">
-            <h2 class="text-start mb-5">Our Story</h2>
-          <p>Fresh & Fine was founded in 1995 with nothing but a pattion for concucting homemade fruit juice and a love for making the community happy. Our fathers and grandfathers started the farm from scratch, working tirelessly to cultivate the land and grow the best fruits possible, along with many hours of tial to perfect the recipe.Our commitment to quality and sustainability drives everything we do</p>
+          <h2 class="text-start mb-5">Our Story</h2>
+          <p>Fresh & Fine was founded in 1995 with nothing but a pattion for concucting homemade fruit juice and a love
+            for making the community happy. Our fathers and grandfathers started the farm from scratch, working
+            tirelessly to cultivate the land and grow the best fruits possible, along with many hours of tial to perfect
+            the recipe.Our commitment to quality and sustainability drives everything we do</p>
           <!--information about different products offered by the farm-->
-          <p>Over the years, we have expanded our product line to include a variety of fresh products such as eggs, milk sourced straight from our cows and ice-creams all made with the same care and attention to detail that our founders instilled in us. We are proud to be a family-owned business that values tradition, community, and the environment.</p>
+          <p>Over the years, we have expanded our product line to include a variety of fresh products such as eggs, milk
+            sourced straight from our cows and ice-creams all made with the same care and attention to detail that our
+            founders instilled in us. We are proud to be a family-owned business that values tradition, community, and
+            the environment.</p>
           <!--button that links to other products page-->
           <a href="products.html#other-products" class="btn custom-button-filled text-white">Other Products</a>
         </div>
         <div class="col-12 col-md-6">
-          <img src="assets\images\old photo of the farm.jpg" alt="Old photo of someone working on the farm" class="img-fluid rounded">
+          <img
+            src="https://ogden_images.s3.amazonaws.com/www.farmcollector.com/images/2023/03/07144802/horse-drawn-lister-plow.jpg"
+            alt="Old photo of someone working on the farm" class="img-fluid rounded">
         </div>
       </div>
     </div>
   </section>
+
   <!--card section for About us, Images with information about the company-->
   <section id="extra-info" class="py-5">
     <div class="container">
       <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
         <div class="col">
           <div class="card h-100">
-            <img src="https://tse3.mm.bing.net/th/id/OIP.BsCaBGYaRPPApOxKBjkj7wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Our family on the farm">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.BsCaBGYaRPPApOxKBjkj7wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+              class="card-img-top" alt="Our family on the farm">
             <div class="card-body text-center">
               <h5 class="card-title">Our Family</h5>
               <!--creates the read more button without using javascript, no text is displayed initially-->
               <input type="checkbox" id="toggle1" class="read-more-toggle">
-              <p class="card-text">As a family we have worked hard over many years and generations to build a sustainable and thriving farm. After many trials and tribulations that our forefathers have faced, we have succeeded in creating a legacy of quality and care while still being a loving community.</p>
-              <label for="toggle1" aria-label="click to read more" class="read-more-btn"></label>
+              <p class="card-text">As a family we have worked hard over many years and generations to build a
+                sustainable and thriving farm. After many trials and tribulations that our forefathers have faced, we
+                have succeeded in creating a legacy of quality and care while still being a loving community.</p>
+              <label for="toggle1" class="read-more-btn"></label>
             </div>
           </div>
         </div>
+
         <!--bootstrap cards with images to display more information about the farm-->
         <div class="col">
           <div class="card h-100">
-            <img src="https://tse3.mm.bing.net/th/id/OIP.zQ6pja4oHvrtoTNz2bUNCgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="cows looking over a wooden fence">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.zQ6pja4oHvrtoTNz2bUNCgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+              class="card-img-top" alt="cows looking over a wooden fence">
             <div class="card-body text-center">
-              <h5 class="card-title" aria-labelledby="our-animals-heading">Our Animals</h5>
+              <h5 class="card-title">Our Animals</h5>
               <input type="checkbox" id="toggle2" class="read-more-toggle">
-              <p class="card-text">The animals on the farm are treated with love and care to ensure their well-being and happiness. They are fed with the best quality grains and food to keep them healthy and strong.</p>
-              <label for="toggle2"  aria-label="click to read more" class="read-more-btn"></label>
+              <p class="card-text">The animals on the farm are treated with love and care to ensure their well-being
+                and happiness. They are fed with the best quality grains and food to keep them healthy and strong.</p>
+              <label for="toggle2" class="read-more-btn"></label>
             </div>
           </div>
         </div>
+
         <div class="col">
           <div class="card h-100">
-            <img src="assets\images\farm.jpg" class="card-img-top" alt="Our farm ">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.p3sCzgy3Rc86sA_pKgjcsAHaEL?rs=1&pid=ImgDetMain&o=7&rm=3"
+              class="card-img-top" alt="Our farm ">
             <div class="card-body text-center">
               <h5 class="card-title">Our Farm</h5>
               <input type="checkbox" id="toggle3" class="read-more-toggle">
-              <p class="card-text">Our farm spans over several acres of fertile land where we cultivate a variety of fruits and vegetables without the use of any harmful chemicals, we use sustainable farming practices which requires more time and effort but allows us to protect the environment and produce high-quality organic products.</p>
-              <label for="toggle3"  aria-label="click to read more" class="read-more-btn"></label>
+              <p class="card-text">Our farm spans over several acres of fertile land where we cultivate a variety of
+                fruits and vegetables without the use of any harmful chemicals, we use sustainable farming practices
+                which requires more time and effort but allows us to protect the environment and produce high-quality
+                organic products.</p>
+              <label for="toggle3" class="read-more-btn"></label>
             </div>
           </div>
         </div>
+
         <div class="col">
           <div class="card h-100">
-            <img src="https://tse2.mm.bing.net/th/id/OIP.4ILewu_4rqU_fht4LausMgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Fresh Fruits picked straight from the farm">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.4ILewu_4rqU_fht4LausMgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+              class="card-img-top" alt="Fresh Fruits picked straight from the farm">
             <div class="card-body text-center">
               <h5 class="card-title">Our Produce</h5>
               <input type="checkbox" id="toggle4" class="read-more-toggle">
-              <p class="card-text">We take great pride in the fresh fruits and vegetables we grow on our farm. Our produce is carefully looked after everyday and harvested at the peak of ripeness to ensure the best flavor and nutritional value for our customers.</p>
-              <label for="toggle4"  aria-label="click to read more" class="read-more-btn"></label>
+              <p class="card-text">We take great pride in the fresh fruits and vegetables we grow on our farm. Our
+                produce is carefully looked after everyday and harvested at the peak of ripeness to ensure the best
+                flavor and nutritional value for our customers.</p>
+              <label for="toggle4" class="read-more-btn"></label>
             </div>
           </div>
+        </div>
+      </div>
     </div>
   </section>
+
   <!--Footer section-->
-  <footer class="bg-dark text-white py-3 mt-auto">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-4 mb-3">
-          <!--shorthand nav menu in the footer-->
-          <h4 class="menu">Menu</h4>
-          <ul class="list-unstyled">
-            <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
-            <li><a href="index.html" class="text-white text-decoration-none">About Us</a></li>
-            <li><a href="products.html" class="text-white text-decoration-none">Products</a></li>
-            <li><a href="index.html#contact" class="text-white text-decoration-none">Contact Us</a></li>
-            <li><a href="sign-up.html" class="text-white text-decoration-none">Sign Up</a></li>
-          </ul>
+    <footer class="bg-dark text-white py-3 mt-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 mb-3">
+            <!--shorthand nav menu in the footer-->
+            <h4 class="menu">Menu</h4>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+              <li><a href="index.html" class="text-white text-decoration-none">About Us</a></li>
+              <li><a href="products.html" class="text-white text-decoration-none">Products</a></li>
+              <li><a href="index.html#contact" class="text-white text-decoration-none">Contact Us</a></li>
+              <li><a href="sign-up.html" class="text-white text-decoration-none">Sign Up</a></li>
+            </ul>
+          </div>
+          <div id="contact" class="col-12 col-md-4 mb-3">
+            <!--contact section-->
+            <h4 class="contact-us">Contact Us</h4>
+            <p>123 Juice Lane, Fruitville, FL 12345</p>
+            <p>(123) 456-7890</p>
+            <p class="mb-0">info@freshandfine.com</p>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <!--social media links only to the home pages-->
+            <h4 class="follow-us">Follow Us</h4>
+            <div class="social-icons">
+              <a href="#" class="text-decoration-none space-between text-white"><i
+                  class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="text-decoration-none space-between text-white"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="text-decoration-none space-between text-white"><i
+                  class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
         </div>
-        <div id="contact"class="col-12 col-md-4 mb-3">
-          <!--contact section-->
-          <h4 class="contact-us">Contact Us</h4>
-          <p>123 Juice Lane, Fruitville, FL 12345</p>
-          <p>(123) 456-7890</p>
-          <p class="mb-0">info@freshandfine.com</p> 
-        </div>
-        <div class="col-12 col-md-4 mb-3">
-           <!--social media links only to the home pages-->
-          <h4 class="follow-us">Follow Us</h4>
-          <div class="social-icons">
-            <a href="#" class="text-decoration-none space-between text-white"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#" class="text-decoration-none space-between text-white"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#" class="text-decoration-none space-between text-white"><i class="fa-brands fa-instagram"></i></a>
+        <hr class="border-secondary">
+        <div class="row">
+          <div class="col-12 text-center">
+            <!--copyright information-->
+            <p class="mb-0">&copy; 2025 Fresh & Fine. All rights reserved.</p>
           </div>
         </div>
       </div>
-      <hr class="border-secondary">
-      <div class="row">
-        <div class="col-12 text-center">
-          <!--copyright information-->
-          <p class="mb-0">&copy; 2025 Fresh & Fine. All rights reserved.</p>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!--bootstrap JavaScript link-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!--bootstrap JavaScript link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous">
+</script>
 </body>
 </html>
