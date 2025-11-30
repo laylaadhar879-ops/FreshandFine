@@ -160,27 +160,23 @@ video {
     object-fit: cover;
 }
 
-
-.card-text {
-    display: block;
-    margin-bottom: 1rem;
-}
-
-/*read more button styles*/
-
+/* Hide the checkbox */
 .read-more-toggle {
     display: none;
 }
 
+/* Hide card text by default */
+.card-text {
+    display: none;
+    margin-bottom: 1rem;
+}
 
 /* Show card text when checkbox is checked */
-
-.read-more-toggle:checked~.card-text {
+.read-more-toggle:checked ~ .card-text {
     display: block;
 }
 
 /* Style the label as a button */
-
 .read-more-btn {
     display: inline-block;
     background-color: var(--highlight-color);
@@ -192,15 +188,19 @@ video {
     transition: background-color 0.3s;
 }
 
-
+/* Add "Read More" text before label */
 .read-more-btn::before {
     content: "Read More";
 }
 
 /* Change text to "Read Less" when checked */
-
-.read-more-toggle:checked~.read-more-btn::before {
+.read-more-toggle:checked ~ .read-more-btn::before {
     content: "Read Less";
+}
+
+/* Hover effect for button */
+.read-more-btn:hover {
+    background-color: var(--primary-color);
 }
 
 /*products section*/
@@ -213,7 +213,7 @@ video {
 .products-section h2 {
     padding: 0;
     margin-bottom: 2rem;
-    color: black
+    color: var(--highlight-color);
     font-weight: bold;
     font-size: 2.5rem;
 }
@@ -239,7 +239,7 @@ video {
     padding: 0;
 }
 
-.products-section .card-text {
+.products-section .product-text {
     font-size: 0.95rem;
     color: #555;
     margin-bottom: 1rem;
