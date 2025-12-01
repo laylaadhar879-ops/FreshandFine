@@ -3,7 +3,7 @@
 ![alt text](<device respone mockup.png>)
 
 
-I have used Canva to generate my mockup device response. The image shows the site on different devices, size screens and how my webpage adapts to the screens. I also used canva for my wireframe to layout the text and images in order to plan out the acceccibility of contents. For my icon, I seleceted an image with a transparent background from google images and used Favicon to generate the links in order for em to use it as an icon.
+I have used Canva to generate my mockup device response. The image shows the site on different devices, size screens and how my webpage adapts to the screens. I also used canva for my wireframe to layout the text and images in order to plan out the acceccibility of contents. For my icon, I seleceted an image with a transparent background from google images and used Favicon to generate the links in order for me to use it as an icon.
 
 **Bootstrap**
 
@@ -29,6 +29,13 @@ I have chosen my video that I used for my hero section from canva. In the produc
 
 All other pictures I have found on google images and I have included the source in my code. 
 
+**Color Scheme**
+
+This is the color pallete that I have Chosen for the Webpage
+
+![alt text](assets/images/color-pallete.png)
+
+I chose these colors because they're bright and it captures the attention of the audiance. When they're layed out and used correctly they compliment eachother.
 
 **User Story 1**
 
@@ -97,7 +104,7 @@ As a visitor, I want to contact the farm directly so that I can ask questions ab
 - Contact Infromation is responsive and easy to use on mobile.
 
 
-![alt text](WireFrame.png)
+![alt text](wireframe.png)
 
 
 
