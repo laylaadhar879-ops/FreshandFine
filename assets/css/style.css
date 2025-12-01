@@ -294,6 +294,34 @@ video {
 
 /*spacing between form fields and the sign up button is already styled because of the class attribute*/
 
+/*thank you page*/
+
+i {
+    font-size: 5rem;
+}
+
+.thank-you-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 1rem 4rem 1rem;
+}
+
+.thank-you-container {
+    padding: 3rem 2rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-container h1 {
+    color: var(--highlight-color);
+}
+
+.thank-you-container p {
+    color: #333;
+}
 
 /*footer section*/
 
