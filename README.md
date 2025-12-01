@@ -1,6 +1,6 @@
 # FreshandFine
+![device response mockup](extra/device-respone-mockup.png)
 
-![Device Mockup](./extra/device-respone-mockup.png)
 
 
 I have used Canva to generate my mockup device response. The image shows the site on different devices, size screens and how my webpage adapts to the screens. I also used canva for my wireframe to layout the text and images in order to plan out the acceccibility of contents. For my icon, I seleceted an image with a transparent background from google images and used Favicon to generate the links in order for me to use it as an icon.
@@ -103,7 +103,7 @@ As a visitor, I want to contact the farm directly so that I can ask questions ab
 
 - Contact Infromation is responsive and easy to use on mobile.
 
-![webpage wireframe](./extra/wireframe.png)
+![wireframe](extra/wireframe.png)
 
 
 
