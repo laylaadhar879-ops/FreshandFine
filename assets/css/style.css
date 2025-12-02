@@ -91,8 +91,7 @@ video {
     align-items: center;
 }
 
-/*styles the content in the hero section.
- Made the heading bold, aligned text to the center and added padding*/
+/*styles the content in the hero section.*/
 
 .hero-content {
     text-align: center;
@@ -119,7 +118,6 @@ video {
     color: var(--secondary-color);
 }
 
-/*custom button filled style. Changed color to green when hovered over*/
 
 .custom-button-filled {
     background-color: var(--highlight-color) !important;
@@ -145,7 +143,6 @@ video {
     width: 100%;
 }
 
-/*hover effect for cards also add shadow for depth */
 
 .card:hover {
     transform: translateY(-5px);
@@ -188,7 +185,6 @@ video {
     transition: background-color 0.3s;
 }
 
-/* Add "Read More" text before label */
 .read-more-btn::before {
     content: "Read More";
 }
@@ -198,7 +194,6 @@ video {
     content: "Read Less";
 }
 
-/* Hover effect for button */
 .read-more-btn:hover {
     background-color: var(--primary-color);
 }
@@ -263,7 +258,7 @@ video {
     padding: 4rem 0;
 }
 
-/*styles the sign-up form container*/
+/*sign-up form container*/
 
 .sign-up-form-container {
     background-color: rgba(255, 255, 255, 0.95);
@@ -292,7 +287,6 @@ video {
     border-radius: 8px;
 }
 
-/*spacing between form fields and the sign up button is already styled because of the class attribute*/
 
 /*thank you page*/
 
@@ -348,8 +342,6 @@ footer p {
     font-size: 0.85rem;
 }
 
-
-/*nav menu in the footer and creates space between all the footer content*/
 
 footer ul li {
     margin-bottom: 0.4rem;
