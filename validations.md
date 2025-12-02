@@ -17,6 +17,8 @@
 **CSS file validation**
 ![alt text](extra/Css-file-validation.png)
 
+**LightHouse Performance**
+![alt text](extra/Lighthouse-performance.png)
 
 
 
